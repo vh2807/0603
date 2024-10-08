@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Home Control Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Smart Home Control Panel</h1>
+
+  <div id="device-control">
+    <button id="voice-command">Điều Khiển Bằng Giọng Nói</button>
+    
+    <div class="device">
+      <h2>Đèn Phòng Khách</h2>
+      <button id="light-on">Bật Đèn</button>
+      <button id="light-off">Tắt Đèn</button>
+      <div id="light-status">Trạng thái: Tắt</div>
+    </div>
+    
+    <div class="device">
+      <h2>Điều Hòa Phòng Ngủ</h2>
+      <button id="ac-on">Bật Điều Hòa</button>
+      <button id="ac-off">Tắt Điều Hòa</button>
+      <div id="ac-status">Trạng thái: Tắt</div>
+    </div>
+    
+    <div class="device">
+      <h2>Cửa Rèm</h2>
+      <button id="curtain-open">Mở Rèm</button>
+      <button id="curtain-close">Đóng Rèm</button>
+      <div id="curtain-status">Trạng thái: Đóng</div>
+    </div>
+    
+    <div class="device">
+      <h2>Hệ Thống Bảo Mật</h2>
+      <button id="security-activate">Kích Hoạt</button>
+      <button id="security-deactivate">Vô Hiệu Hóa</button>
+      <div id="security-status">Trạng thái: Vô hiệu hóa</div>
+    </div>
+    
+    <div class="device">
+      <h2>Camera An Ninh</h2>
+      <button id="camera-on">Bật Camera</button>
+      <button id="camera-off">Tắt Camera</button>
+      <div id="camera-status">Trạng thái: Tắt</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

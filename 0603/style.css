@@ -1,0 +1,31 @@
+/* Mã CSS đã có */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.device {
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button#light-on, button#ac-on, button#curtain-open, button#security-activate, button#camera-on, button#voice-command {
+  background-color: #4CAF50; /* Màu nền xanh lá cho nút bật */
+  color: white;
+}
+
+button#light-off, button#ac-off, button#curtain-close, button#security-deactivate, button#camera-off {
+  background-color: #f44336; /* Màu nền đỏ cho nút tắt */
+  color: white;
+}
+
